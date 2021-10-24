@@ -1,4 +1,4 @@
-# Salesforce web to lead document
+# Salesforce web to case document
 
 Salesforce 線上個案，提供簡單的範例。
 
