@@ -1,0 +1,556 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  注意：請將以下<META>元素新增至您的網頁<HEAD>。如有需要，請修改 charset 參數，以指定您 HTML 網頁的字元組。      -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  注意：請將以下<FORM>元素新增至您的網頁。                                                 -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+    
+    <input type=hidden name="orgid" value="00D2w000006VPp6">
+    <input type=hidden name="retURL" value="http://www.google.com.tw/">
+    
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  注意：這些欄位是選擇性的除錯元素。如果您要在除錯模式下測試，請取消註解這些行。                                 -->
+    <input type="hidden" name="debug" value=1>                             
+    <input type="hidden" name="debugEmail" value="shihyen@cw.com.tw">      
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <label for="name">連絡人姓名</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+    
+    <label for="email">電子郵件</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    
+    <label for="phone">電話</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    
+    <label for="subject">主題</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+    
+    <label for="description">描述</label><textarea name="description"></textarea><br>
+    
+    <label for="company">公司</label><input  id="company" maxlength="80" name="company" size="20" type="text" /><br>
+    
+    <label for="type">類型</label><select  id="type" name="type"><option value="">--無--</option><option value="Problem">Problem</option>
+    <option value="Feature Request">Feature Request</option>
+    <option value="Question">Question</option>
+    </select><br>
+    
+    <label for="status">狀態</label><select  id="status" name="status"><option value="">--無--</option><option value="New">New</option>
+    <option value="On Hold">On Hold</option>
+    <option value="Escalated">Escalated</option>
+    <option value="Closed">Closed</option>
+    </select><br>
+    
+    <label for="reason">個案原因</label><select  id="reason" name="reason"><option value="">--無--</option><option value="User didn&#39;t attend training">User didn&#39;t attend training</option>
+    <option value="Complex functionality">Complex functionality</option>
+    <option value="Existing problem">Existing problem</option>
+    <option value="Instructions not clear">Instructions not clear</option>
+    <option value="New problem">New problem</option>
+    </select><br>
+    
+    <label for="priority">優先順序</label><select  id="priority" name="priority"><option value="">--無--</option><option value="High">High</option>
+    <option value="Medium">Medium</option>
+    <option value="Low">Low</option>
+    </select><br>
+    
+    BU:<select  id="00N2w00000FPFCk" name="00N2w00000FPFCk" title="BU"><option value="">--無--</option><option value="天下">天下</option>
+    <option value="康健">康健</option>
+    <option value="Cheers">Cheers</option>
+    <option value="親子">親子</option>
+    <option value="教育基金會">教育基金會</option>
+    <option value="天下網路書店">天下網路書店</option>
+    <option value="其他">其他</option>
+    </select><br>
+    
+    產品/網站平台 - 部門:<select  id="00N2w00000FPF8P" name="00N2w00000FPF8P" title="產品/網站平台 - 部門"><option value="">--無--</option><option value="紙本-天下 - 客服">紙本-天下 - 客服</option>
+    <option value="紙本-天下 - 發行">紙本-天下 - 發行</option>
+    <option value="紙本-天下 - 行銷">紙本-天下 - 行銷</option>
+    <option value="紙本-天下 - 電銷/直銷商">紙本-天下 - 電銷/直銷商</option>
+    <option value="紙本-天下 - 編輯">紙本-天下 - 編輯</option>
+    <option value="紙本-天下 - 調查中心">紙本-天下 - 調查中心</option>
+    <option value="紙本-天下 - 公關">紙本-天下 - 公關</option>
+    <option value="紙本-天下 - 製管">紙本-天下 - 製管</option>
+    <option value="紙本-天下 - 廣告">紙本-天下 - 廣告</option>
+    <option value="紙本-天下 - 財務">紙本-天下 - 財務</option>
+    <option value="全閱讀-Web - 客服">全閱讀-Web - 客服</option>
+    <option value="全閱讀-Web - 數位發展中心">全閱讀-Web - 數位發展中心</option>
+    <option value="全閱讀-Web - 行銷">全閱讀-Web - 行銷</option>
+    <option value="全閱讀-Web - 財務">全閱讀-Web - 財務</option>
+    <option value="天下雜誌APP - 數位發展中心">天下雜誌APP - 數位發展中心</option>
+    <option value="天下每日報APP - 數位發展中心">天下每日報APP - 數位發展中心</option>
+    <option value="實體活動 - 行銷(天下)">實體活動 - 行銷(天下)</option>
+    <option value="實體活動 - 客服(天下)">實體活動 - 客服(天下)</option>
+    <option value="實體/線上活動 - 財務(天下)">實體/線上活動 - 財務(天下)</option>
+    <option value="天下網站 - 官網">天下網站 - 官網</option>
+    <option value="天下網站 - 行銷">天下網站 - 行銷</option>
+    <option value="創新學院 - 官網">創新學院 - 官網</option>
+    <option value="創新學院 - 行銷">創新學院 - 行銷</option>
+    <option value="知識庫 - 行銷">知識庫 - 行銷</option>
+    <option value="叢書 - 客服(天下)">叢書 - 客服(天下)</option>
+    <option value="叢書 - 編輯(天下)">叢書 - 編輯(天下)</option>
+    <option value="叢書 - 行銷(天下)">叢書 - 行銷(天下)</option>
+    <option value="叢書 - 發行(天下)">叢書 - 發行(天下)</option>
+    <option value="叢書 - 財務(天下)">叢書 - 財務(天下)</option>
+    <option value="zinio -天下/微笑/換日 - 客服">zinio -天下/微笑/換日 - 客服</option>
+    <option value="zinio -天下/微笑/換日 - 行銷">zinio -天下/微笑/換日 - 行銷</option>
+    <option value="zinio -天下/微笑/換日 - 財務">zinio -天下/微笑/換日 - 財務</option>
+    <option value="紙本-微笑 - 客服">紙本-微笑 - 客服</option>
+    <option value="紙本-微笑 - 發行">紙本-微笑 - 發行</option>
+    <option value="紙本-微笑 - 行銷">紙本-微笑 - 行銷</option>
+    <option value="紙本-微笑 - 電銷/直銷商">紙本-微笑 - 電銷/直銷商</option>
+    <option value="紙本-微笑 - 編輯">紙本-微笑 - 編輯</option>
+    <option value="紙本-微笑 - 調查中心">紙本-微笑 - 調查中心</option>
+    <option value="紙本-微笑 - 製管">紙本-微笑 - 製管</option>
+    <option value="紙本-微笑 - 廣告">紙本-微笑 - 廣告</option>
+    <option value="紙本-微笑 - 財務">紙本-微笑 - 財務</option>
+    <option value="紙本-換日 - 客服">紙本-換日 - 客服</option>
+    <option value="紙本-換日 - 發行">紙本-換日 - 發行</option>
+    <option value="紙本-換日 - 行銷">紙本-換日 - 行銷</option>
+    <option value="紙本-換日 - 電銷/直銷商">紙本-換日 - 電銷/直銷商</option>
+    <option value="紙本-換日 - 編輯">紙本-換日 - 編輯</option>
+    <option value="紙本-換日 - 調查中心">紙本-換日 - 調查中心</option>
+    <option value="紙本-換日 - 製管">紙本-換日 - 製管</option>
+    <option value="紙本-換日 - 廣告">紙本-換日 - 廣告</option>
+    <option value="紙本-換日 - 財務">紙本-換日 - 財務</option>
+    <option value="紙本-康健 - 客服">紙本-康健 - 客服</option>
+    <option value="紙本-康健 - 發行">紙本-康健 - 發行</option>
+    <option value="紙本-康健 - 行銷">紙本-康健 - 行銷</option>
+    <option value="紙本-康健 - 電銷/直銷商">紙本-康健 - 電銷/直銷商</option>
+    <option value="紙本-康健 - 編輯">紙本-康健 - 編輯</option>
+    <option value="紙本-康健 - 調查中心">紙本-康健 - 調查中心</option>
+    <option value="紙本-康健 - 公關">紙本-康健 - 公關</option>
+    <option value="紙本-康健 - 製管">紙本-康健 - 製管</option>
+    <option value="紙本-康健 - 廣告">紙本-康健 - 廣告</option>
+    <option value="紙本-康健 - 財務">紙本-康健 - 財務</option>
+    <option value="實體活動 - 行銷(康健)">實體活動 - 行銷(康健)</option>
+    <option value="實體活動 - 客服(康健)">實體活動 - 客服(康健)</option>
+    <option value="實體/線上活動 - 財務(康健)">實體/線上活動 - 財務(康健)</option>
+    <option value="康健網站 - 官網">康健網站 - 官網</option>
+    <option value="康健網站 - 行銷">康健網站 - 行銷</option>
+    <option value="線上課程平台(康健) - 行銷">線上課程平台(康健) - 行銷</option>
+    <option value="線上課程平台(康健) - 財務">線上課程平台(康健) - 財務</option>
+    <option value="線上課程平台(康健) - 客服">線上課程平台(康健) - 客服</option>
+    <option value="叢書 - 客服(康健)">叢書 - 客服(康健)</option>
+    <option value="叢書 - 編輯(康健)">叢書 - 編輯(康健)</option>
+    <option value="叢書 - 行銷(康健)">叢書 - 行銷(康健)</option>
+    <option value="叢書 - 發行(康健)">叢書 - 發行(康健)</option>
+    <option value="叢書 - 財務(康健)">叢書 - 財務(康健)</option>
+    <option value="zinio-康健 - 客服">zinio-康健 - 客服</option>
+    <option value="zinio-康健 - 行銷">zinio-康健 - 行銷</option>
+    <option value="zinio-康健 - 財務">zinio-康健 - 財務</option>
+    <option value="紙本-Cheers - 客服">紙本-Cheers - 客服</option>
+    <option value="紙本-Cheers - 發行">紙本-Cheers - 發行</option>
+    <option value="紙本-Cheers - 行銷">紙本-Cheers - 行銷</option>
+    <option value="紙本-Cheers - 電銷/直銷商">紙本-Cheers - 電銷/直銷商</option>
+    <option value="紙本-Cheers - 編輯">紙本-Cheers - 編輯</option>
+    <option value="紙本-Cheers - 調查中心">紙本-Cheers - 調查中心</option>
+    <option value="紙本-Cheers - 公關">紙本-Cheers - 公關</option>
+    <option value="紙本-Cheers - 製管">紙本-Cheers - 製管</option>
+    <option value="紙本-Cheers - 廣告">紙本-Cheers - 廣告</option>
+    <option value="紙本-Cheers - 財務">紙本-Cheers - 財務</option>
+    <option value="實體活動 - 行銷(Cheers)">實體活動 - 行銷(Cheers)</option>
+    <option value="實體活動 - 客服(Cheers)">實體活動 - 客服(Cheers)</option>
+    <option value="實體/線上活動 - 財務(Cheers)">實體/線上活動 - 財務(Cheers)</option>
+    <option value="MasterCheers - 行銷">MasterCheers - 行銷</option>
+    <option value="MasterCheers - 財務">MasterCheers - 財務</option>
+    <option value="MasterCheers - 客服">MasterCheers - 客服</option>
+    <option value="Cheers網站 - 官網">Cheers網站 - 官網</option>
+    <option value="叢書 - 財務(Cheers)">叢書 - 財務(Cheers)</option>
+    <option value="叢書 - 客服(Cheers)">叢書 - 客服(Cheers)</option>
+    <option value="叢書 - 編輯(Cheers)">叢書 - 編輯(Cheers)</option>
+    <option value="叢書 - 行銷(Cheers)">叢書 - 行銷(Cheers)</option>
+    <option value="叢書 - 發行(Cheers)">叢書 - 發行(Cheers)</option>
+    <option value="zinio-Cheers - 客服">zinio-Cheers - 客服</option>
+    <option value="zinio-Cheers - 行銷">zinio-Cheers - 行銷</option>
+    <option value="zinio-Cheers - 財務">zinio-Cheers - 財務</option>
+    <option value="紙本-親子天下 - 客服">紙本-親子天下 - 客服</option>
+    <option value="紙本-親子天下 - 發行">紙本-親子天下 - 發行</option>
+    <option value="紙本-親子天下 - 行銷">紙本-親子天下 - 行銷</option>
+    <option value="紙本-親子天下 - 電銷/直銷商">紙本-親子天下 - 電銷/直銷商</option>
+    <option value="紙本-親子天下 - 編輯">紙本-親子天下 - 編輯</option>
+    <option value="紙本-親子天下 - 調查中心">紙本-親子天下 - 調查中心</option>
+    <option value="紙本-親子天下 - 公關">紙本-親子天下 - 公關</option>
+    <option value="紙本-親子天下 - 製管">紙本-親子天下 - 製管</option>
+    <option value="紙本-親子天下 - 廣告">紙本-親子天下 - 廣告</option>
+    <option value="紙本-親子天下 - 財務">紙本-親子天下 - 財務</option>
+    <option value="紙本-小行星 - 客服">紙本-小行星 - 客服</option>
+    <option value="紙本-小行星 - 發行">紙本-小行星 - 發行</option>
+    <option value="紙本-小行星 - 行銷">紙本-小行星 - 行銷</option>
+    <option value="紙本-小行星 - 電銷/直銷商">紙本-小行星 - 電銷/直銷商</option>
+    <option value="紙本-小行星 - 編輯">紙本-小行星 - 編輯</option>
+    <option value="紙本-小行星 - 調查中心">紙本-小行星 - 調查中心</option>
+    <option value="紙本-小行星 - 公關">紙本-小行星 - 公關</option>
+    <option value="紙本-小行星 - 製管">紙本-小行星 - 製管</option>
+    <option value="紙本-小行星 - 廣告">紙本-小行星 - 廣告</option>
+    <option value="紙本-小行星 - 財務">紙本-小行星 - 財務</option>
+    <option value="實體活動 - 行銷(親子)">實體活動 - 行銷(親子)</option>
+    <option value="實體活動 - 客服(親子)">實體活動 - 客服(親子)</option>
+    <option value="實體/線上活動 - 財務(親子)">實體/線上活動 - 財務(親子)</option>
+    <option value="親子故事有聲書 - 產品開發部">親子故事有聲書 - 產品開發部</option>
+    <option value="親子故事有聲書 - 財務">親子故事有聲書 - 財務</option>
+    <option value="親子故事有聲書 - 客服">親子故事有聲書 - 客服</option>
+    <option value="親子網站 - Shopping電商">親子網站 - Shopping電商</option>
+    <option value="親子網站 - 官網">親子網站 - 官網</option>
+    <option value="點讀筆 - 行銷部">點讀筆 - 行銷部</option>
+    <option value="線上課程平台(親子) - 行銷">線上課程平台(親子) - 行銷</option>
+    <option value="線上課程平台(親子) - 財務">線上課程平台(親子) - 財務</option>
+    <option value="線上課程平台(親子) - 客服">線上課程平台(親子) - 客服</option>
+    <option value="叢書 - 客服(親子)">叢書 - 客服(親子)</option>
+    <option value="叢書 - 編輯(親子)">叢書 - 編輯(親子)</option>
+    <option value="叢書 - 行銷(親子)">叢書 - 行銷(親子)</option>
+    <option value="叢書 - 發行(親子)">叢書 - 發行(親子)</option>
+    <option value="叢書 - 財務(親子)">叢書 - 財務(親子)</option>
+    <option value="zinio -親子天下 - 客服">zinio -親子天下 - 客服</option>
+    <option value="zinio -親子天下 - 財務">zinio -親子天下 - 財務</option>
+    <option value="zinio -親子天下 - 行銷">zinio -親子天下 - 行銷</option>
+    <option value="教育基金會">教育基金會</option>
+    <option value="天下網路書店">天下網路書店</option>
+    <option value="其他">其他</option>
+    </select><br>
+    
+    大類:<select  id="00N2w00000Hh50l" name="00N2w00000Hh50l" title="大類"><option value="">--無--</option><option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    </select><br>
+    
+    小類:<select  id="00N2w00000Hh510" name="00N2w00000Hh510" title="小類"><option value="">--無--</option><option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    </select><br>
+    
+    詢問或抱怨:<select  id="00N2w00000HiJLe" name="00N2w00000HiJLe" title="詢問或抱怨"><option value="">--無--</option><option value="詢問">詢問</option>
+    <option value="抱怨">抱怨</option>
+    <option value="詢問及抱怨">詢問及抱怨</option>
+    </select><br>
+    
+    發送問卷檢查:<input  id="00N2w00000HiNyJ" name="00N2w00000HiNyJ" type="checkbox" value="1" /><br>
+    
+    提問類型:<select  id="00N2w00000HjXJp" name="00N2w00000HjXJp" title="提問類型"><option value="">--無--</option><option value="登入/帳號相關">登入/帳號相關</option>
+    <option value="產品訂購問題">產品訂購問題</option>
+    <option value="課程操作問題">課程操作問題</option>
+    <option value="取消訂單問題">取消訂單問題</option>
+    <option value="退換貨相關">退換貨相關</option>
+    <option value="商品寄送問題">商品寄送問題</option>
+    <option value="補寄雜誌">補寄雜誌</option>
+    <option value="發票問題">發票問題</option>
+    <option value="電子報問題">電子報問題</option>
+    <option value="洋蔥數學提問">洋蔥數學提問</option>
+    <option value="其他">其他</option>
+    </select><br>
+    
+    姓名:<input  id="00N2w00000HjXqZ" maxlength="100" name="00N2w00000HjXqZ" size="20" type="text" /><br>
+    
+    個案原因(詢問):<select  id="00N2w00000HjsVS" name="00N2w00000HjsVS" title="個案原因(詢問)"><option value="">--無--</option><option value="詢問方案(內容、贈品、價格)-交易問題">詢問方案(內容、贈品、價格)-交易問題</option>
+    <option value="詢問付款方式-交易問題">詢問付款方式-交易問題</option>
+    <option value="訂購使用操作(下單、加入會員、折價券使用、課程序號兌換等..)">訂購使用操作(下單、加入會員、折價券使用、課程序號兌換等..)</option>
+    <option value="詢問課程內容">詢問課程內容</option>
+    <option value="課程平台操作方式(如何看課、觀課時程等..)-使用問題">課程平台操作方式(如何看課、觀課時程等..)-使用問題</option>
+    <option value="課程平台查詢帳號密碼-資料相關">課程平台查詢帳號密碼-資料相關</option>
+    <option value="查詢訂閱紀錄-資料相關">查詢訂閱紀錄-資料相關</option>
+    <option value="開立上課證明問題">開立上課證明問題</option>
+    <option value="查資料(客編/訂單狀態/起迄/卡號重授)-資料相關">查資料(客編/訂單狀態/起迄/卡號重授)-資料相關</option>
+    <option value="客服線上接單-交易問題">客服線上接單-交易問題</option>
+    <option value="訂單異動(互轉、退訂、改起迄)-交易問題">訂單異動(互轉、退訂、改起迄)-交易問題</option>
+    <option value="確認傳真資料(含未收)-資料相關">確認傳真資料(含未收)-資料相關</option>
+    <option value="傳真訂單給讀者-交易問題">傳真訂單給讀者-交易問題</option>
+    <option value="改址(含改址補寄)-寄送問題">改址(含改址補寄)-寄送問題</option>
+    <option value="派送單位來電(有朋、宅配、貨運)-寄送問題">派送單位來電(有朋、宅配、貨運)-寄送問題</option>
+    <option value="客服部其他詢問-其他">客服部其他詢問-其他</option>
+    <option value="詢問當月雜誌未收-寄送問題">詢問當月雜誌未收-寄送問題</option>
+    <option value="詢問郵件寄送狀況(贈品、產品)-寄送問題">詢問郵件寄送狀況(贈品、產品)-寄送問題</option>
+    <option value="取消補書-寄送問題">取消補書-寄送問題</option>
+    <option value="雜誌(價格、庫存)--當期及過期-交易問題">雜誌(價格、庫存)--當期及過期-交易問題</option>
+    <option value="詢問外部商品-交易問題">詢問外部商品-交易問題</option>
+    <option value="詢問聯賣方案(外部雜誌或贈品未收)-寄送問題">詢問聯賣方案(外部雜誌或贈品未收)-寄送問題</option>
+    <option value="詢問為何收到贈閱雜誌(label未註明贈閱)-服務相關">詢問為何收到贈閱雜誌(label未註明贈閱)-服務相關</option>
+    <option value="已續訂但仍收到到期通知(2個星期內)-服務相關">已續訂但仍收到到期通知(2個星期內)-服務相關</option>
+    <option value="已到期不續訂(請簡述原因)-交易問題">已到期不續訂(請簡述原因)-交易問題</option>
+    <option value="詢問簡訊(訂單成立、活動、方案等通知)-服務相關">詢問簡訊(訂單成立、活動、方案等通知)-服務相關</option>
+    <option value="詢問舉辦活動/講座-活動問題">詢問舉辦活動/講座-活動問題</option>
+    <option value="沒有單純紙本方案-交易問題">沒有單純紙本方案-交易問題</option>
+    <option value="詢問電銷人員、聯絡方式-資料相關">詢問電銷人員、聯絡方式-資料相關</option>
+    <option value="詢問電銷方案-交易問題">詢問電銷方案-交易問題</option>
+    <option value="詢問書商聯絡方式-資料相關">詢問書商聯絡方式-資料相關</option>
+    <option value="詢問書商方案-交易問題">詢問書商方案-交易問題</option>
+    <option value="書商來電-其他">書商來電-其他</option>
+    <option value="詢問雜誌內容-內容問題">詢問雜誌內容-內容問題</option>
+    <option value="詢問文章轉載及授權問題-內容問題">詢問文章轉載及授權問題-內容問題</option>
+    <option value="提供文章內容意見-內容問題">提供文章內容意見-內容問題</option>
+    <option value="未收到調查問卷-寄送問題">未收到調查問卷-寄送問題</option>
+    <option value="詢問調查活動-內容問題">詢問調查活動-內容問題</option>
+    <option value="協助調查受贈雜誌未收等情事-寄送問題">協助調查受贈雜誌未收等情事-寄送問題</option>
+    <option value="詢問319活動-活動問題">詢問319活動-活動問題</option>
+    <option value="全閱讀網站操作閱讀方式-使用問題">全閱讀網站操作閱讀方式-使用問題</option>
+    <option value="查詢全閱讀(帳號、密碼、發票資料)-資料相關">查詢全閱讀(帳號、密碼、發票資料)-資料相關</option>
+    <option value="修改信用資料(卡號、效期)-服務相關">修改信用資料(卡號、效期)-服務相關</option>
+    <option value="詢問網站自動續訂(取消、扣款機制)-使用問題">詢問網站自動續訂(取消、扣款機制)-使用問題</option>
+    <option value="全閱讀網站其它詢問-使用問題">全閱讀網站其它詢問-使用問題</option>
+    <option value="詢問全閱讀網站方案(價格、方案)-交易問題">詢問全閱讀網站方案(價格、方案)-交易問題</option>
+    <option value="雜誌訂戶可否免費使用全閱讀-服務相關">雜誌訂戶可否免費使用全閱讀-服務相關</option>
+    <option value="APP內價格、方案-交易問題">APP內價格、方案-交易問題</option>
+    <option value="APP操作方式-使用問題">APP操作方式-使用問題</option>
+    <option value="APP開通日、起迄期、帳號、密碼-資料相關">APP開通日、起迄期、帳號、密碼-資料相關</option>
+    <option value="詢問APP自動續訂(取消、扣款機制)-使用問題">詢問APP自動續訂(取消、扣款機制)-使用問題</option>
+    <option value="APP活動(抽獎、任務…)-活動問題">APP活動(抽獎、任務…)-活動問題</option>
+    <option value="下載操作方式-使用問題">下載操作方式-使用問題</option>
+    <option value="保存問題(列印、刪掉電子雜誌重新下載)-使用問題">保存問題(列印、刪掉電子雜誌重新下載)-使用問題</option>
+    <option value="閱讀問題(不同電腦、PDA下載)-使用問題">閱讀問題(不同電腦、PDA下載)-使用問題</option>
+    <option value="查詢密碼、帳號合併、修改e-mail-使用問題">查詢密碼、帳號合併、修改e-mail-使用問題</option>
+    <option value="zinio安裝問題-使用問題">zinio安裝問題-使用問題</option>
+    <option value="補寄電子雜誌問題-寄送問題">補寄電子雜誌問題-寄送問題</option>
+    <option value="是否訂購成功-交易問題">是否訂購成功-交易問題</option>
+    <option value="查電子訂閱資料-資料相關">查電子訂閱資料-資料相關</option>
+    <option value="zinio雜誌容量問題-使用問題">zinio雜誌容量問題-使用問題</option>
+    <option value="查詢創新學院帳號密碼-資料相關">查詢創新學院帳號密碼-資料相關</option>
+    <option value="創新學院操作方式-使用問題">創新學院操作方式-使用問題</option>
+    <option value="詢問(訂購方案價格、方案、價格)-交易問題">詢問(訂購方案價格、方案、價格)-交易問題</option>
+    <option value="試用申請相關問題-服務相關">試用申請相關問題-服務相關</option>
+    <option value="叢書內容-內容問題">叢書內容-內容問題</option>
+    <option value="詢問預購書問題-服務相關">詢問預購書問題-服務相關</option>
+    <option value="庫存問題-服務相關">庫存問題-服務相關</option>
+    <option value="索取叢書目錄-服務相關">索取叢書目錄-服務相關</option>
+    <option value="詢問購書地點-服務相關">詢問購書地點-服務相關</option>
+    <option value="詢問郵件寄送狀況-寄送問題">詢問郵件寄送狀況-寄送問題</option>
+    <option value="網路使用操作(下單、加入會員等)-服務相關">網路使用操作(下單、加入會員等)-服務相關</option>
+    <option value="E-mail認證未成功-服務相關">E-mail認證未成功-服務相關</option>
+    <option value="電子報問題(改mail、改密碼)-服務相關">電子報問題(改mail、改密碼)-服務相關</option>
+    <option value="查代號密碼-資料相關">查代號密碼-資料相關</option>
+    <option value="網站文章內容詢問-內容問題">網站文章內容詢問-內容問題</option>
+    <option value="詢問secant網站方案(價格、方案)-交易問題">詢問secant網站方案(價格、方案)-交易問題</option>
+    <option value="網路文章轉載及授權問題-內容問題">網路文章轉載及授權問題-內容問題</option>
+    <option value="如何執行查詢或下載功能-使用問題">如何執行查詢或下載功能-使用問題</option>
+    <option value="保存問題(列印、我的資料夾)-使用問題">保存問題(列印、我的資料夾)-使用問題</option>
+    <option value="加入會員條件、費用-服務相關">加入會員條件、費用-服務相關</option>
+    <option value="查詢代號密碼-資料相關">查詢代號密碼-資料相關</option>
+    <option value="查詢剩餘點數-資料相關">查詢剩餘點數-資料相關</option>
+    <option value="扣點數問題-使用問題">扣點數問題-使用問題</option>
+    <option value="服務下線-點數使用期限-資料相關">服務下線-點數使用期限-資料相關</option>
+    <option value="服務下線-退訂/轉換相關-服務相關">服務下線-退訂/轉換相關-服務相關</option>
+    <option value="詢問活動(內容/日期/價格)-活動問題">詢問活動(內容/日期/價格)-活動問題</option>
+    <option value="行前資訊及票券發送時間及資訊-活動問題">行前資訊及票券發送時間及資訊-活動問題</option>
+    <option value="查資料(客編/訂單狀態/卡號重授)-資料相關">查資料(客編/訂單狀態/卡號重授)-資料相關</option>
+    <option value="訂單異動(互轉、退訂、改場次)-交易問題">訂單異動(互轉、退訂、改場次)-交易問題</option>
+    <option value="詢問聯賣方案(內容、贈品、價格)-交易問題">詢問聯賣方案(內容、贈品、價格)-交易問題</option>
+    <option value="詢問康健樂活節-活動問題">詢問康健樂活節-活動問題</option>
+    <option value="詢問預購書問題-交易問題">詢問預購書問題-交易問題</option>
+    <option value="庫存問題-交易問題">庫存問題-交易問題</option>
+    <option value="索取叢書目錄-交易問題">索取叢書目錄-交易問題</option>
+    <option value="詢問購書地點-交易問題">詢問購書地點-交易問題</option>
+    <option value="網路使用操作(下單、加入會員等)-使用問題">網路使用操作(下單、加入會員等)-使用問題</option>
+    <option value="康健網站行銷詢問-資料相關">康健網站行銷詢問-資料相關</option>
+    <option value="詢問訂戶取消全閱讀服務-資料相關">詢問訂戶取消全閱讀服務-資料相關</option>
+    <option value="抱怨DM/EDM內容有誤-服務相關">抱怨DM/EDM內容有誤-服務相關</option>
+    <option value="故事CD音檔下載操作-使用問題">故事CD音檔下載操作-使用問題</option>
+    <option value="詢問小行星改版點讀化-內容問題">詢問小行星改版點讀化-內容問題</option>
+    <option value="有聲書APP操作方式(新版/舊版)-使用問題">有聲書APP操作方式(新版/舊版)-使用問題</option>
+    <option value="查詢有聲書帳號、密碼-資料相關">查詢有聲書帳號、密碼-資料相關</option>
+    <option value="查詢有聲書開通日、起迄期-資料相關">查詢有聲書開通日、起迄期-資料相關</option>
+    <option value="改信用資料(卡號、效期)-服務相關">改信用資料(卡號、效期)-服務相關</option>
+    <option value="有聲書改版差異問題-內容問題">有聲書改版差異問題-內容問題</option>
+    <option value="小行星訂戶兌換CD專輯-使用問題">小行星訂戶兌換CD專輯-使用問題</option>
+    <option value="有聲書(web/app)自動續訂(取消、扣款機制)-使用問題">有聲書(web/app)自動續訂(取消、扣款機制)-使用問題</option>
+    <option value="有聲書(web/app)其它詢問-其他">有聲書(web/app)其它詢問-其他</option>
+    <option value="詢問大人/小孩的科學相關問題-交易問題">詢問大人/小孩的科學相關問題-交易問題</option>
+    <option value="更改訂單內容-服務相關">更改訂單內容-服務相關</option>
+    <option value="e-coupon / 購物金 / 親子幣 使用辦法-服務相關">e-coupon / 購物金 / 親子幣 使用辦法-服務相關</option>
+    <option value="CVS出貨狀況查詢-資料相關">CVS出貨狀況查詢-資料相關</option>
+    <option value="詢問網路活動-活動問題">詢問網路活動-活動問題</option>
+    <option value="查詢密碼、權益、會員中心資料-資料相關">查詢密碼、權益、會員中心資料-資料相關</option>
+    <option value="點讀筆、錄音貼紙操作使用方式-使用問題">點讀筆、錄音貼紙操作使用方式-使用問題</option>
+    <option value="保固維修問題(進度/報價)-服務相關">保固維修問題(進度/報價)-服務相關</option>
+    <option value="退換貨問題-交易問題">退換貨問題-交易問題</option>
+    <option value="詢問天下文化叢書或遠見雜誌-資料相關">詢問天下文化叢書或遠見雜誌-資料相關</option>
+    <option value="詢問書香花園-資料相關">詢問書香花園-資料相關</option>
+    <option value="找總公司的人-其他">找總公司的人-其他</option>
+    <option value="打錯電話-其他">打錯電話-其他</option>
+    <option value="軟硬體詢問(傳真機運作、號碼，公司地址等)-資料相關">軟硬體詢問(傳真機運作、號碼，公司地址等)-資料相關</option>
+    <option value="詢問希望閱讀相關活動-活動問題">詢問希望閱讀相關活動-活動問題</option>
+    <option value="詢問會員升級及權益-資料相關">詢問會員升級及權益-資料相關</option>
+    <option value="折價券/ 購物金 / 使用辦法-使用問題">折價券/ 購物金 / 使用辦法-使用問題</option>
+    <option value="紙張問題(紙張、墨水..)-使用問題">紙張問題(紙張、墨水..)-使用問題</option>
+    <option value="詢問廣告(內容、刊登方式、活動/講座)-內容問題">詢問廣告(內容、刊登方式、活動/講座)-內容問題</option>
+    <option value="發票問題(未收查詢、遺失補開等)-交易問題">發票問題(未收查詢、遺失補開等)-交易問題</option>
+    <option value="中獎發票查詢、更址-服務相關">中獎發票查詢、更址-服務相關</option>
+    <option value="支票、匯款是否已收到-交易問題">支票、匯款是否已收到-交易問題</option>
+    <option value="退訂退款時間-交易問題">退訂退款時間-交易問題</option>
+    <option value="更改發票抬頭統編-交易問題">更改發票抬頭統編-交易問題</option>
+    <option value="電子發票改開紙本-交易問題">電子發票改開紙本-交易問題</option>
+    <option value="修改電子發票Email收件人-服務相關">修改電子發票Email收件人-服務相關</option>
+    <option value="如何查詢電子發票-交易問題">如何查詢電子發票-交易問題</option>
+    <option value="詢問郵件寄送狀況(當月未收、贈品)-寄送問題">詢問郵件寄送狀況(當月未收、贈品)-寄送問題</option>
+    <option value="其他詢問-使用問題">其他詢問-使用問題</option>
+    <option value="每日報操作方式-使用問題">每日報操作方式-使用問題</option>
+    <option value="每日報查詢帳密-資料相關">每日報查詢帳密-資料相關</option>
+    <option value="詢問每日報方案(價格、方案)-交易問題">詢問每日報方案(價格、方案)-交易問題</option>
+    <option value="詢問每日報自動續訂(取消、扣款機制)-使用問題">詢問每日報自動續訂(取消、扣款機制)-使用問題</option>
+    <option value="每日報其它詢問-其他">每日報其它詢問-其他</option>
+    <option value="自動續訂功能詢問-交易問題">自動續訂功能詢問-交易問題</option>
+    <option value="line、fb提問（機器人) - 其他">line、fb提問（機器人) - 其他</option>
+    <option value="其它詢問-其他">其它詢問-其他</option>
+    <option value="Cheers轉型">Cheers轉型</option>
+    <option value="親子改季刊">親子改季刊</option>
+    <option value="其他詢問-其他">其他詢問-其他</option>
+    </select><br>
+    
+    個案原因(抱怨):<select  id="00N2w00000HjteU" name="00N2w00000HjteU" title="個案原因(抱怨)"><option value="">--無--</option><option value="抱怨方案(內容、贈品、價格）-交易問題">抱怨方案(內容、贈品、價格）-交易問題</option>
+    <option value="付款方式/交易/結帳 有問題或失敗">付款方式/交易/結帳 有問題或失敗</option>
+    <option value="課程平台抱怨影片無法撥放(故障、不好用)-使用問題">課程平台抱怨影片無法撥放(故障、不好用)-使用問題</option>
+    <option value="未收序號通知信(折價券、課程序號不能用等..)-使用問題">未收序號通知信(折價券、課程序號不能用等..)-使用問題</option>
+    <option value="關閉課程未收通知-服務相關">關閉課程未收通知-服務相關</option>
+    <option value="無法下載講義-使用問題">無法下載講義-使用問題</option>
+    <option value="無法加入網站會員-服務相關">無法加入網站會員-服務相關</option>
+    <option value="訂單建錯異動(退訂、互轉、改起迄、改址)-服務相關">訂單建錯異動(退訂、互轉、改起迄、改址)-服務相關</option>
+    <option value="承諾事項未處理-服務相關">承諾事項未處理-服務相關</option>
+    <option value="反應月出書雜誌晚收-寄送問題">反應月出書雜誌晚收-寄送問題</option>
+    <option value="雜誌收件時間比零售通路慢-寄送問題">雜誌收件時間比零售通路慢-寄送問題</option>
+    <option value="遺失補寄-寄送問題">遺失補寄-寄送問題</option>
+    <option value="瑕疵補寄-寄送問題">瑕疵補寄-寄送問題</option>
+    <option value="漏裝補寄-寄送問題">漏裝補寄-寄送問題</option>
+    <option value="裝錯補寄-寄送問題">裝錯補寄-寄送問題</option>
+    <option value="投遞人員 態度 / 投遞 方式不佳-寄送問題">投遞人員 態度 / 投遞 方式不佳-寄送問題</option>
+    <option value="收件異常查核(含2期以上雜誌未收)-寄送問題">收件異常查核(含2期以上雜誌未收)-寄送問題</option>
+    <option value="加強件未簽收-寄送問題">加強件未簽收-寄送問題</option>
+    <option value="其他抱怨-寄送問題">其他抱怨-寄送問題</option>
+    <option value="後訂方案較好-交易問題">後訂方案較好-交易問題</option>
+    <option value="抱怨商品晚收/缺庫存/無缺貨通知-寄送問題">抱怨商品晚收/缺庫存/無缺貨通知-寄送問題</option>
+    <option value="聯賣方案(外部雜誌/贈品未收或瑕疵)-寄送問題">聯賣方案(外部雜誌/贈品未收或瑕疵)-寄送問題</option>
+    <option value="抱怨新續訂戶價格無差異-服務相關">抱怨新續訂戶價格無差異-服務相關</option>
+    <option value="抱怨DM/EDM內容有誤(內容、價格、無法連結．．．)-服務相關">抱怨DM/EDM內容有誤(內容、價格、無法連結．．．)-服務相關</option>
+    <option value="抱怨簡訊(訂單成立、活動、方案等通知)-服務相關">抱怨簡訊(訂單成立、活動、方案等通知)-服務相關</option>
+    <option value="抱怨(已續訂)仍收到到期通知(超過2星期)-服務相關">抱怨(已續訂)仍收到到期通知(超過2星期)-服務相關</option>
+    <option value="不要再收到DM/TM/EDM/SMS-服務相關">不要再收到DM/TM/EDM/SMS-服務相關</option>
+    <option value="轉單有誤(漏轉、轉錯雜誌別)-服務相關">轉單有誤(漏轉、轉錯雜誌別)-服務相關</option>
+    <option value="展售訂單問題(填寫不清、填寫錯誤)-服務相關">展售訂單問題(填寫不清、填寫錯誤)-服務相關</option>
+    <option value="抱怨舉辦活動/講座-活動問題">抱怨舉辦活動/講座-活動問題</option>
+    <option value="沒有單純紙本方案-交易問題">沒有單純紙本方案-交易問題</option>
+    <option value="抱怨電銷-承諾事項未處理-服務相關">抱怨電銷-承諾事項未處理-服務相關</option>
+    <option value="抱怨電銷-訂單內容有誤(起訂月份、收件地址)-服務相關">抱怨電銷-訂單內容有誤(起訂月份、收件地址)-服務相關</option>
+    <option value="抱怨電銷-態度(撥打太頻繁、不禮貌…)-服務相關">抱怨電銷-態度(撥打太頻繁、不禮貌…)-服務相關</option>
+    <option value="抱怨書商-承諾事項未處理-服務相關">抱怨書商-承諾事項未處理-服務相關</option>
+    <option value="抱怨書商-訂單內容有誤(起訂月份、收件地址)-服務相關">抱怨書商-訂單內容有誤(起訂月份、收件地址)-服務相關</option>
+    <option value="抱怨雜誌內容-內容問題">抱怨雜誌內容-內容問題</option>
+    <option value="質疑調查內容-內容問題">質疑調查內容-內容問題</option>
+    <option value="抱怨協助調查受贈雜誌未收等情事-寄送問題">抱怨協助調查受贈雜誌未收等情事-寄送問題</option>
+    <option value="抱怨319活動-活動問題">抱怨319活動-活動問題</option>
+    <option value="無法登入網站閱讀(帳密有誤)-使用問題">無法登入網站閱讀(帳密有誤)-使用問題</option>
+    <option value="已登入網站無法讀(paywall擋住)-使用問題">已登入網站無法讀(paywall擋住)-使用問題</option>
+    <option value="抱怨網站自動續訂(取消、扣款機制)-使用問題">抱怨網站自動續訂(取消、扣款機制)-使用問題</option>
+    <option value="重覆扣款-交易問題">重覆扣款-交易問題</option>
+    <option value="抱怨​未收全閱讀使用通知信-服務相關">抱怨​未收全閱讀使用通知信-服務相關</option>
+    <option value="全閱讀網站其它抱怨-使用問題">全閱讀網站其它抱怨-使用問題</option>
+    <option value="抱怨APP不好用-使用問題">抱怨APP不好用-使用問題</option>
+    <option value="無法登入APP閱讀(帳密有誤)-使用問題">無法登入APP閱讀(帳密有誤)-使用問題</option>
+    <option value="已登入APP無法讀(paywall擋住)-使用問題">已登入APP無法讀(paywall擋住)-使用問題</option>
+    <option value="APP其它抱怨-其他">APP其它抱怨-其他</option>
+    <option value="每日報操作方式-使用問題">每日報操作方式-使用問題</option>
+    <option value="每日報查詢帳密-資料相關">每日報查詢帳密-資料相關</option>
+    <option value="詢問每日報方案(價格、方案)-交易問題">詢問每日報方案(價格、方案)-交易問題</option>
+    <option value="詢問每日報自動續訂(取消、扣款機制)-使用問題">詢問每日報自動續訂(取消、扣款機制)-使用問題</option>
+    <option value="每日報其它詢問-其他">每日報其它詢問-其他</option>
+    <option value="抱怨方案(價格、方案、價格)-交易問題">抱怨方案(價格、方案、價格)-交易問題</option>
+    <option value="其它抱怨-其他">其它抱怨-其他</option>
+    <option value="zinio後台派送問題(無法下載)-使用問題">zinio後台派送問題(無法下載)-使用問題</option>
+    <option value="zinio雜誌晚上架-服務相關">zinio雜誌晚上架-服務相關</option>
+    <option value="無法使用zinio介面功能(未開放列印、搜尋功能)-使用問題">無法使用zinio介面功能(未開放列印、搜尋功能)-使用問題</option>
+    <option value="zinio雜誌缺頁(扣廣告頁,無頁碼標示)-內容問題">zinio雜誌缺頁(扣廣告頁,無頁碼標示)-內容問題</option>
+    <option value="zinio雜誌無到期通知-服務相關">zinio雜誌無到期通知-服務相關</option>
+    <option value="創新學院無法登入(請記錄原因)-使用問題">創新學院無法登入(請記錄原因)-使用問題</option>
+    <option value="創新學院無法使用(如搜尋功能故障等)-使用問題">創新學院無法使用(如搜尋功能故障等)-使用問題</option>
+    <option value="創新學院內容有誤(如連結/上架有誤..等)-內容問題">創新學院內容有誤(如連結/上架有誤..等)-內容問題</option>
+    <option value="抱怨試用申請問題-服務相關">抱怨試用申請問題-服務相關</option>
+    <option value="叢書內容(不好看、錯誤)-內容問題">叢書內容(不好看、錯誤)-內容問題</option>
+    <option value="缺書問題-服務相關">缺書問題-服務相關</option>
+    <option value="抱怨通路價格不同-服務相關">抱怨通路價格不同-服務相關</option>
+    <option value="收件異常查核-寄送問題">收件異常查核-寄送問題</option>
+    <option value="網路使用穩定性(速度慢/無法開啟網頁)-服務相關">網路使用穩定性(速度慢/無法開啟網頁)-服務相關</option>
+    <option value="E-mail認證未成功-服務相關">E-mail認證未成功-服務相關</option>
+    <option value="收不到電子報-服務相關">收不到電子報-服務相關</option>
+    <option value="抱怨網站影音問題-服務相關">抱怨網站影音問題-服務相關</option>
+    <option value="抱怨secant網站方案(價格、方案)-交易問題">抱怨secant網站方案(價格、方案)-交易問題</option>
+    <option value="交易/結帳 有問題或失敗-交易問題">交易/結帳 有問題或失敗-交易問題</option>
+    <option value="網路操作穩定性-服務相關">網路操作穩定性-服務相關</option>
+    <option value="執行查詢或下載功能-使用問題">執行查詢或下載功能-使用問題</option>
+    <option value="未下載成功被扣點-使用問題">未下載成功被扣點-使用問題</option>
+    <option value="與下單原點數不符-交易問題">與下單原點數不符-交易問題</option>
+    <option value="服務下線-無法保存閱讀(收藏夾)-服務相關">服務下線-無法保存閱讀(收藏夾)-服務相關</option>
+    <option value="服務下線-未收到異動通知-服務相關">服務下線-未收到異動通知-服務相關</option>
+    <option value="服務下線-抱怨點數使用期限限制-服務相關">服務下線-抱怨點數使用期限限制-服務相關</option>
+    <option value="服務下線-抱怨活動贈點到期無補償-服務相關">服務下線-抱怨活動贈點到期無補償-服務相關</option>
+    <option value="服務下線-扣點順序（同時有活動/付費）-服務相關">服務下線-扣點順序（同時有活動/付費）-服務相關</option>
+    <option value="活動品質不佳-活動問題">活動品質不佳-活動問題</option>
+    <option value="活動內容不符期待-活動問題">活動內容不符期待-活動問題</option>
+    <option value="未收行前通知或未收票券-活動問題">未收行前通知或未收票券-活動問題</option>
+    <option value="網路轉單有誤(金額、贈品、數量等)-服務相關">網路轉單有誤(金額、贈品、數量等)-服務相關</option>
+    <option value="抱怨康健樂活節-活動問題">抱怨康健樂活節-活動問題</option>
+    <option value="缺書問題-交易問題">缺書問題-交易問題</option>
+    <option value="網路使用穩定性(速度慢/無法開啟網頁)-使用問題">網路使用穩定性(速度慢/無法開啟網頁)-使用問題</option>
+    <option value="無法加入網站會員-使用問題">無法加入網站會員-使用問題</option>
+    <option value="抱怨網站影音問題-使用問題">抱怨網站影音問題-使用問題</option>
+    <option value="抱怨付款方式-交易問題">抱怨付款方式-交易問題</option>
+    <option value="抱怨小行星改版點讀化-內容問題">抱怨小行星改版點讀化-內容問題</option>
+    <option value="故事CD取消代碼兌換服務-服務相關">故事CD取消代碼兌換服務-服務相關</option>
+    <option value="故事CD未接到兌換改版通知-服務相關">故事CD未接到兌換改版通知-服務相關</option>
+    <option value="故事CD音檔官網下載不好操作-使用問題">故事CD音檔官網下載不好操作-使用問題</option>
+    <option value="故事CD官網無法下載(音檔有缺/誤)-使用問題">故事CD官網無法下載(音檔有缺/誤)-使用問題</option>
+    <option value="抱怨有聲書(web/app)方案(價格、方案)-交易問題">抱怨有聲書(web/app)方案(價格、方案)-交易問題</option>
+    <option value="抱怨有聲書app不好用(新版/舊版)-使用問題">抱怨有聲書app不好用(新版/舊版)-使用問題</option>
+    <option value="已購買且登入app仍無法收聽(新版/舊版)-使用問題">已購買且登入app仍無法收聽(新版/舊版)-使用問題</option>
+    <option value="無法登入app無法收聽(帳密有誤)-使用問題">無法登入app無法收聽(帳密有誤)-使用問題</option>
+    <option value="APP沒有提供FB登入功能-使用問題">APP沒有提供FB登入功能-使用問題</option>
+    <option value="抱怨(web/app)自動續訂(取消、扣款機制-使用問題">抱怨(web/app)自動續訂(取消、扣款機制-使用問題</option>
+    <option value="有聲書未收/未寄扣款通知-服務相關">有聲書未收/未寄扣款通知-服務相關</option>
+    <option value="抱怨未收有聲書使用通知信-服務相關">抱怨未收有聲書使用通知信-服務相關</option>
+    <option value="抱怨未接到改版通知-服務相關">抱怨未接到改版通知-服務相關</option>
+    <option value="抱怨小行星訂戶無法自兒童APP聽專輯-使用問題">抱怨小行星訂戶無法自兒童APP聽專輯-使用問題</option>
+    <option value="原兌換/購買專輯未轉兒童APP(無法收聽)-服務相關">原兌換/購買專輯未轉兒童APP(無法收聽)-服務相關</option>
+    <option value="有聲書(web/app)其它抱怨-其他">有聲書(web/app)其它抱怨-其他</option>
+    <option value="抱怨大人/小孩科學相關問題(瑕疵、缺零件等)-交易問題">抱怨大人/小孩科學相關問題(瑕疵、缺零件等)-交易問題</option>
+    <option value="抱怨外部商品-服務相關">抱怨外部商品-服務相關</option>
+    <option value="未收到CVS簡訊/確認信/認證信/優惠卷-服務相關">未收到CVS簡訊/確認信/認證信/優惠卷-服務相關</option>
+    <option value="e-coupon / 購物金 / 親子幣 相關抱怨-服務相關">e-coupon / 購物金 / 親子幣 相關抱怨-服務相關</option>
+    <option value="網路購書缺書-交易問題">網路購書缺書-交易問題</option>
+    <option value="通知信(含訂單確認信)內容錯/亂碼/地址不全-服務相關">通知信(含訂單確認信)內容錯/亂碼/地址不全-服務相關</option>
+    <option value="網站交易訊息錯誤(價格/贈品/優惠卷點數等)-交易問題">網站交易訊息錯誤(價格/贈品/優惠卷點數等)-交易問題</option>
+    <option value="抱怨網書促銷方案(贈品、金額、效期)-交易問題">抱怨網書促銷方案(贈品、金額、效期)-交易問題</option>
+    <option value="CVS無法取書(已到店)-交易問題">CVS無法取書(已到店)-交易問題</option>
+    <option value="無法使用會員功能或VIP功能-使用問題">無法使用會員功能或VIP功能-使用問題</option>
+    <option value="抱怨網路活動-活動問題">抱怨網路活動-活動問題</option>
+    <option value="點讀筆瑕疵(無法使用.....)-內容問題">點讀筆瑕疵(無法使用.....)-內容問題</option>
+    <option value="錄音貼紙瑕疵-內容問題">錄音貼紙瑕疵-內容問題</option>
+    <option value="維修進度問題(太慢.....)-服務相關">維修進度問題(太慢.....)-服務相關</option>
+    <option value="收費問題(維修費/零件費太貴)-服務相關">收費問題(維修費/零件費太貴)-服務相關</option>
+    <option value="海外不提供保固-服務相關">海外不提供保固-服務相關</option>
+    <option value="書籍或卡片無法點讀/內容有誤-內容問題">書籍或卡片無法點讀/內容有誤-內容問題</option>
+    <option value="未收行前通知或未收票券-服務相關">未收行前通知或未收票券-服務相關</option>
+    <option value="抱怨希望閱讀捐款未收-服務相關">抱怨希望閱讀捐款未收-服務相關</option>
+    <option value="折價券 / 購物金 / 相關抱怨-使用問題">折價券 / 購物金 / 相關抱怨-使用問題</option>
+    <option value="裝訂錯誤-使用問題">裝訂錯誤-使用問題</option>
+    <option value="印刷錯誤-使用問題">印刷錯誤-使用問題</option>
+    <option value="製管部抱怨(裝訂、印刷、紙張反光..)-使用問題">製管部抱怨(裝訂、印刷、紙張反光..)-使用問題</option>
+    <option value="CD/DVD讀取異常-使用問題">CD/DVD讀取異常-使用問題</option>
+    <option value="抱怨廣告(內容、版面、活動/講座)-內容問題">抱怨廣告(內容、版面、活動/講座)-內容問題</option>
+    <option value="退訂退款太慢-交易問題">退訂退款太慢-交易問題</option>
+    <option value="抱怨發票問題(開立2張、品項等問題...)-交易問題">抱怨發票問題(開立2張、品項等問題...)-交易問題</option>
+    <option value="未收電子發票email通知信-服務相關">未收電子發票email通知信-服務相關</option>
+    <option value="抱怨DM/EDM內容有誤-服務相關">抱怨DM/EDM內容有誤-服務相關</option>
+    <option value="其他抱怨-使用問題">其他抱怨-使用問題</option>
+    <option value="抱怨7-11代收/ 行銷平台轉單問題-服務相關">抱怨7-11代收/ 行銷平台轉單問題-服務相關</option>
+    <option value="抱怨自動續訂(取消、扣款機制) - 交易問題">抱怨自動續訂(取消、扣款機制) - 交易問題</option>
+    <option value="抱怨課程內容">抱怨課程內容</option>
+    <option value="抱怨其他問題">抱怨其他問題</option>
+    <option value="Cheers轉型">Cheers轉型</option>
+    <option value="親子改季刊">親子改季刊</option>
+    <option value="其他抱怨-其他">其他抱怨-其他</option>
+    </select><br>
+    
+    是否發送問卷:<input  id="00N2w00000J7Zn9" name="00N2w00000J7Zn9" type="checkbox" value="1" /><br>
+    
+    無法發送原因:<input  id="00N2w00000J7Znx" maxlength="100" name="00N2w00000J7Znx" size="20" type="text" /><br>
+    
+    描述問題（限255字）:<input  id="00N2w00000J7jbp" maxlength="255" name="00N2w00000J7jbp" size="20" type="text" /><br>
+    
+    <input type="submit" name="submit">
+    
+    </form>
+    
